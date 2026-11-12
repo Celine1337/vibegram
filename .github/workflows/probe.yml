@@ -1,0 +1,24 @@
+name: Probe tlottie header
+
+on:
+  workflow_dispatch:
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone tlottie and dump C ABI header
+        run: |
+          set -x
+          git clone --depth 1 https://github.com/TelegramMessenger/tlottie.git tlottie
+          cd tlottie
+          echo "HEAD_SHA=$(git rev-parse HEAD)"
+          echo "===== top-level tree ====="
+          ls -la
+          echo "===== all .h files (excluding target) ====="
+          find . -name '*.h' -not -path './target/*' -not -path './.git/*'
+          echo "===== tlottie.h contents ====="
+          find . -name 'tlottie.h' -not -path './target/*' -not -path './.git/*' -print -exec cat {} \;
+          echo "===== root Cargo.toml ====="
+          cat Cargo.toml 2>/dev/null || true
+          echo "===== END PROBE ====="
