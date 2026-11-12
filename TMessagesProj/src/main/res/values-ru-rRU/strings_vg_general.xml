@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="VGGeneralTitle">Основные</string>
+    <string name="VGGeneralOtherTitle">Прочее</string>
+
+    <!-- Translate Messages -->
+    <string name="VGGeneralTranslateHeader">Перевод сообщений</string>
+    <string name="VGGeneralTranslateButton">Кнопка перевода</string>
+    <string name="VGGeneralTranslateWholeChat">Перевод всего чата</string>
+    <string name="VGGeneralTranslationProvider">Сервис перевода</string>
+    <string name="VGGeneralTranslationTarget">Язык перевода</string>
+    <string name="VGGeneralTranslationTargetDefault">Язык приложения</string>
+    <string name="VGGeneralDoNotTranslate">Не переводить</string>
+    <string name="VGGeneralTranslateInfo">Кнопка «Перевести» появится в контекстном меню сообщения.</string>
+
+    <!-- General -->
+    <string name="VGGeneralSectionHeader">Основные</string>
+    <string name="VGGeneralDisableNumberRounding">Не округлять числа</string>
+    <string name="VGGeneralDisableNumberRoundingValue">1,23 тыс. → 1 234</string>
+    <string name="VGGeneralFormatTimeWithSeconds">Показывать секунды</string>
+    <string name="VGGeneralFormatTimeWithSecondsValue">12:34 → 12:34:56</string>
+    <string name="VGGeneralRelativeLastSeen">Относительное время в сети</string>
+    <string name="VGGeneralInAppVibration">Вибрация в приложении</string>
+    <string name="VGGeneralFilterZalgo">Фильтровать «Zalgo»</string>
+    <string name="VGGeneralFilterZalgoInfo">Убирает комбинируемые символы, ломающие вёрстку текста: Z̷͍͌ā̸̜l̸̞̂g̷͍̝o̶̩̓ превращается в Zalgo.</string>
+
+
+    <!-- Download Speed Boost -->
+    <string name="VGGeneralSpeedHeader">Ускорение загрузки</string>
+    <string name="VGGeneralNetworkSpeedHeader">Сеть и загрузка</string>
+    <string name="VGGeneralBackupHeader">Резервная копия</string>
+    <string name="VGGeneralSpeedOff">Выкл.</string>
+    <string name="VGGeneralSpeedFast">Быстро</string>
+    <string name="VGGeneralSpeedUltra">Ультра</string>
+    <string name="VGGeneralUploadBoost">Ускорение выгрузки</string>
+    <string name="VGGeneralSpeedBoostInfo">Режим «Ультра» может вызвать проблемы с сетью или аккумулятором. Ускорение выгрузки отправляет файлы более крупными частями и увеличивает расход трафика.</string>
+
+    <!-- Storage -->
+    <string name="VGGeneralStorageHeader">Хранилище</string>
+    <string name="VGGeneralSavePath">Папка сохранения</string>
+    <string name="VGGeneralSavePathDefault">По умолчанию</string>
+    <string name="VGGeneralSavePathHint">Имя папки</string>
+    <string name="VGGeneralSavePathInfo">Имя папки внутри Downloads, куда сохраняются файлы. Допустимы буквы, цифры, пробел, точка, дефис и подчёркивание.</string>
+
+    <!-- Profile -->
+    <string name="VGGeneralProfileHeader">Профиль</string>
+    <string name="VGGeneralHidePhone">Скрыть номер телефона</string>
+    <string name="VGGeneralShowIdAndDc">Показывать ID и DC</string>
+    <string name="VGGeneralShowIdAndDcInfo">Показывает ID пользователя или чата и номер дата-центра в профиле.</string>
+
+    <!-- Archive -->
+    <string name="VGGeneralArchiveHeader">Список чатов и архив</string>
+    <string name="VGGeneralHideArchive">Скрыть папку «Архив»</string>
+    <string name="VGGeneralArchiveOnPull">Открывать архив потягиванием</string>
+    <string name="VGGeneralDisableUnarchiveSwipe">Отключить свайп «Из архива»</string>
+    <string name="VGGeneralDisableUnarchiveSwipeInfo">Свайп влево не будет убирать чат из архива.</string>
+
+    <!-- Google -->
+
+    <!-- Settings Management -->
+    <string name="VGGeneralExportEtgSettings">Экспорт настроек</string>
+    <string name="VGGeneralImportEtgSettings">Импорт настроек</string>
+    <string name="VGGeneralExportFormatFull">Все настройки (.json)</string>
+    <string name="VGGeneralExportFormatExtera">Формат VibeGram (.vibe)</string>
+    <string name="VGGeneralImportEtgConfirm">Настроек в файле: %1$d. Текущие значения будут заменены.</string>
+    <string name="VGGeneralImportEtgEmpty">В файле нет настроек VibeGram.</string>
+    <string name="VGGeneralImportEtgDone">Импортировано настроек: %1$d</string>
+    <string name="VGGeneralResetSettings">Сброс настроек</string>
+    <string name="VGGeneralResetSettingsInfo">Все настройки вернутся к значениям по умолчанию, приложение перезапустится.</string>
+    <string name="VGGeneralResetSettingsDone">Настройки VibeGram сброшены.</string>
+    <string name="VGGeneralDeleteAccount">Удалить аккаунт</string>
+    <string name="DeepLFormalityDefault">Тон: как есть</string>
+    <string name="DeepLFormalityInformal">Тон: неформальный</string>
+    <string name="DeepLFormalityFormal">Тон: формальный</string>
+    <string name="VGGeneralSavePathInfoFolder">Файлы сохраняются в Downloads/%1$s. Только буквы, цифры, пробел, точка, дефис и подчёркивание.</string>
+    <string name="VGGeneralNagramHeader">Дополнительно</string>
+    <string name="VGGeneralNagramSettings">Расширенные настройки</string>
+    <string name="VGGeneralAyuMoments">AyuMoments</string>
+    <string name="VGGeneralAyuMomentsInfo">Сохранение удалённых и изменённых сообщений, режим призрака и regex-фильтры. Функции работают, пока включены, — даже если не открывать этот экран.</string>
+    <string name="VGGeneralAyuMomentsDisableAll">Отключить все функции AyuMoments</string>
+    <string name="VGLastActivityFormatted">последняя активность %1$s</string>
+    <string name="VGLastActivityDateFormatted">последняя активность %1$s</string>
+    <string name="VGBottomNavigationModeFloating">Плавающая</string>
+    <string name="VGGeneralNotificationsHeader">Уведомления</string>
+    <string name="VGGeneralPushStatus">Состояние пушей</string>
+    <string name="VGGeneralPushStatusBlocked">заблокированы системой</string>
+    <string name="VGGeneralPushStatusNoToken">нет токена</string>
+    <string name="VGGeneralPushStatusNotRegistered">не зарегистрирован</string>
+    <string name="VGGeneralPushStatusNothing">ничего не приходило</string>
+    <string name="VGGeneralBatteryOptimization">Оптимизация батареи</string>
+    <string name="VGGeneralBatteryOptimizationOn">Включена — пуши могут опаздывать</string>
+    <string name="VGGeneralBatteryOptimizationOff">Отключена</string>
+    <string name="VGGeneralBatteryOptimizationUnavailable">Настройки батареи недоступны на этом устройстве</string>
+    <string name="VGGeneralNotificationsInfo">Нажмите на состояние пушей, чтобы скопировать диагностику в буфер — прикладывайте её к сообщению о проблеме с уведомлениями. Если оптимизация батареи включена, Android может задерживать или терять пуши, пока приложение в фоне.</string>
+    <string name="VGGeneralGoogleHeader">Google</string>
+    <string name="VGGeneralCrashReports">Отчёты о сбоях</string>
+    <string name="VGGeneralCrashReportsInfo">Отправляет стек падений в Firebase Crashlytics, чтобы их чинили без ручных баг-репортов. По умолчанию выключено, и пока выключено, с устройства ничего не уходит.</string>
+    <string name="VGGeneralContentCapture">Доступ системы к тексту на экране</string>
+    <string name="VGGeneralContentCaptureInfo">Нужен для Live Translate на Pixel и системных подсказок. Пока выключено, система не видит текст чатов, а списки листаются плавнее.</string>
+    <string name="VGGeneralMapsHeader">Карты</string>
+    <string name="VGGeneralUseOsmMapInfo">Выбор места и трансляции геопозиции рисуются тайлами OpenStreetMap вместо Google Maps. Превью локаций в сообщениях по-прежнему приходят с серверов Telegram.</string>
+    <string name="VGGeneralMapProvider">Провайдер карт</string>
+    <string name="VGGeneralMapPreview">Превью локаций</string>
+    <string name="VGGeneralMapDriftingFix">Исправлять смещение карты</string>
+    <string name="VGCrashTitle">vibegram аварийно завершился</string>
+    <string name="VGGeneralNetworkHeader">Сеть</string>
+    <string name="VGPrivacyFalseBottom">Двойное дно</string>
+    <string name="VGPrivacyFalseBottomShowIn">Показывать в разделе «%1$s»</string>
+    <string name="AskBeforeOpeningStory">Спрашивать перед открытием истории</string>
+    <string name="AskBeforeOpeningStoryInfo">Предлагает посмотреть её в режиме призрака, обычно или не открывать.</string>
+    <string name="AskBeforeOpeningStoryTitle">Открыть историю?</string>
+    <string name="AskBeforeOpeningStoryGhost">Смотреть в режиме призрака</string>
+    <string name="AskBeforeOpeningStoryNormal">Смотреть</string>
+    <string name="GhostScheduledSend">Отправлять отложкой</string>
+    <string name="GhostScheduledSendNotice">Пока онлайн скрыт, сообщения уходят как отложенные через 12 секунд, и вы не появляетесь в сети.</string>
+    <string name="CloudConfigIncludeApiKeys">Сохранять AI-ключи</string>
+    <string name="CloudConfigIncludeApiKeysDesc">Ключи API сервисов ИИ и перевода тоже попадут в облако.</string>
+    <string name="VGCloudTitle">Облако</string>
+    <string name="VGCloudHeroTitle">Настройки в облаке</string>
+    <string name="VGCloudHeroText">Храните настройки vibegram в Telegram и восстанавливайте их на любом устройстве с этим аккаунтом.</string>
+    <string name="VGCloudStatus">Состояние</string>
+    <string name="VGCloudLocal">Это устройство</string>
+    <string name="VGCloudRemote">Облако</string>
+    <string name="VGCloudChecking">проверка…</string>
+    <string name="VGCloudActions">Действия</string>
+    <string name="VGCloudUpload">Сохранить в облако</string>
+    <string name="VGCloudUploading">Сохранение…</string>
+    <string name="VGCloudUploaded">Настройки сохранены в облако</string>
+    <string name="VGCloudRestore">Восстановить из облака</string>
+    <string name="VGCloudRestoring">Восстановление…</string>
+    <string name="VGCloudRestoreAction">Восстановить</string>
+    <string name="VGCloudRestoreConfirm">Текущие настройки заменятся копией из облака, после чего приложение перезапустится.</string>
+    <string name="VGCloudClear">Очистить облако</string>
+    <string name="VGCloudClearing">Очистка…</string>
+    <string name="VGCloudClearAction">Очистить</string>
+    <string name="VGCloudClearConfirm">Копия в облаке будет удалена. Настройки на этом устройстве останутся как есть.</string>
+    <string name="VGCloudOptions">Параметры</string>
+    <string name="VGCloudAutoSync">Автосинхронизация</string>
+    <string name="VGCloudAutoSyncInfo">Сохранять после каждого изменения настроек</string>
+    <string name="VGAyuSaveReadDate">Сохранять дату прочтения</string>
+    <string name="VGAyuGhostHeader">Призрак</string>
+    <string name="VGAyuSavingHeader">Сохранение</string>
+    <string name="VGAyuDeletedHeader">Удалённые в чате</string>
+    <string name="VGAyuOtherHeader">Прочее</string>
+    <string name="VGAyuDangerHeader">Опасная зона</string>
+    <string name="VGAyuSaveReadDateInfo">Запоминает, когда ваши сообщения прочитали и прослушали. Время видно в меню сообщения, если Telegram его не показывает.</string>
+    <string name="VGAyuPlayedTodayAt">прослушано в %s</string>
+    <string name="VGAyuPlayedYesterdayAt">прослушано вчера в %s</string>
+    <string name="VGAyuPlayedDateTimeAt">прослушано %1$s в %2$s</string>
+    <string name="VGAyuForwardLoadingMedia">Загрузка медиа</string>
+    <string name="VGAyuForwardLoadingCount">Файлов: %1$d из %2$d</string>
+    <string name="VGAyuForwardLoadFailed">Не удалось загрузить медиа для пересылки</string>
+    <string name="VGUpdateAvailable">Доступно обновление: %1$s</string>
+    <string name="VGUpdateInstall">Обновить</string>
+    <string name="VGUpdateInstallSize">Обновить (%1$s)</string>
+    <string name="VGUpdateLater">Позже</string>
+    <string name="VGUpdateSkip">Пропустить версию</string>
+    <string name="VGUpdateDownloading">Загрузка обновления</string>
+    <string name="VGUpdateDownloadFailed">Не удалось скачать обновление</string>
+    <string name="VGUpdateCheckFailed">Не удалось проверить обновления</string>
+    <string name="VGUserLookupTitle">Запуск @usinfobot</string>
+    <string name="VGUserLookupStart">Чтобы найти пользователя по ID, нужен бот **@usinfobot**. Он работает только после запуска, поэтому мы отправим ему /start. В списке чатов появится чат с ним.</string>
+    <string name="VGUserLookupStartButton">Запустить</string>
+    <string name="VGUserLookupNotFound">Пользователь %1$d не найден</string>
+    <string name="VGUpdateTitle">Доступно обновление</string>
+    <string name="VGUpdateDownloadProgress">%1$s из %2$s</string>
+    <string name="VGAyuSaveInArchived">Сохранять в архивных чатах</string>
+    <string name="VGAyuSaveInArchivedInfo">Удалённые и изменённые сообщения из чатов в архиве тоже сохраняются.</string>
+    <string name="VGAyuDatabaseExport">Экспорт базы</string>
+    <string name="VGAyuDatabaseImport">Импорт базы</string>
+    <string name="VGAyuDatabaseImportInfo">Удалённые и изменённые сообщения из файла добавятся к уже сохранённым. Подходят выгрузки vibegram и AyuGram. Медиа из другого приложения могут не открыться.</string>
+    <string name="VGAyuDatabaseImportDone">Добавлено сообщений: %1$d</string>
+    <string name="VGAyuDatabaseImportFailed">Не удалось импортировать файл</string>
+    <string name="VGAyuRegexReversed">Обратный</string>
+    <string name="VGAyuRegexReversedInfo">Скрывать сообщения, которые не совпадают с выражением</string>
+    <string name="VGUpdaterChecking">Проверяем обновления…</string>
+    <string name="VGUpdaterLatest">У вас последняя версия</string>
+    <string name="VGUpdaterAvailable">Доступна версия %1$s</string>
+    <string name="VGUpdaterFailedInfo">Проверьте подключение и попробуйте ещё раз</string>
+    <string name="VGUpdaterCheckedJustNow">Проверено только что</string>
+    <string name="VGUpdaterCheckedAt">Проверено %1$s</string>
+    <string name="VGUpdaterCheckAgain">Проверить снова</string>
+    <string name="VGUpdaterChannel">Автопроверка</string>
+    <string name="VGUpdaterChannelOff">Выкл</string>
+    <string name="VGUpdaterChannelStable">Релизы</string>
+    <string name="VGUpdaterChannelBeta">Бета</string>
+    <string name="VGUpdaterChannelOffInfo">Обновления проверяются, только когда вы нажимаете на логотип.</string>
+    <string name="VGUpdaterChannelStableInfo">Раз в 6 часов проверяются новые релизы на GitHub.</string>
+    <string name="VGUpdaterChannelBetaInfo">Ещё и пре-релизы с GitHub — раньше, чем они станут релизами.</string>
+    <string name="VGUpdaterAllReleases">Все релизы на GitHub</string>
+    <string name="VGLiteFollowSystemSaver">Как в системе</string>
+    <string name="VGLiteFollowSystemSaverInfo">Энергосбережение включается вместе с системным режимом экономии заряда.</string>
+</resources>

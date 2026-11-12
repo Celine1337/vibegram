@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="VGGeneralTitle">General</string>
+    <string name="VGGeneralOtherTitle">Other</string>
+
+    <!-- Translate Messages -->
+    <string name="VGGeneralTranslateHeader">Translate Messages</string>
+    <string name="VGGeneralTranslateButton">Translate Button</string>
+    <string name="VGGeneralTranslateWholeChat">Translate Whole Chat</string>
+    <string name="VGGeneralTranslationProvider">Translation Provider</string>
+    <string name="VGGeneralTranslationTarget">Target Language</string>
+    <string name="VGGeneralTranslationTargetDefault">App Language</string>
+    <string name="VGGeneralDoNotTranslate">Do Not Translate</string>
+    <string name="VGGeneralTranslateInfo">The \'Translate\' button will appear in the message context menu.</string>
+
+    <!-- App Navigation -->
+    <string name="VGBottomNavigationModeFloating">Floating</string>
+
+    <!-- General -->
+    <string name="VGGeneralSectionHeader">General</string>
+    <string name="VGGeneralDisableNumberRounding">Disable Number Rounding</string>
+    <string name="VGGeneralDisableNumberRoundingValue">1.23K → 1,234</string>
+    <string name="VGGeneralFormatTimeWithSeconds">Format Time with Seconds</string>
+    <string name="VGGeneralFormatTimeWithSecondsValue">12:34 → 12:34:56</string>
+    <string name="VGGeneralRelativeLastSeen">Relative Last Seen</string>
+    <string name="VGGeneralInAppVibration">In-App Vibration</string>
+    <string name="VGGeneralFilterZalgo">Filter \"Zalgo\"</string>
+    <string name="VGGeneralFilterZalgoInfo">Removes stacked combining marks that break text layout. Example: %1$s</string>
+
+
+    <!-- Download Speed Boost -->
+    <string name="VGGeneralSpeedHeader">Download Speed Boost</string>
+    <string name="VGGeneralNetworkSpeedHeader">Network and downloads</string>
+    <string name="VGGeneralBackupHeader">Backup</string>
+    <string name="VGGeneralSpeedOff">Off</string>
+    <string name="VGGeneralSpeedFast">Fast</string>
+    <string name="VGGeneralSpeedUltra">Ultra</string>
+    <string name="VGGeneralUploadBoost">Upload Speed Boost</string>
+    <string name="VGGeneralSpeedBoostInfo">Ultra Boost can cause problems with your network or battery. Upload Speed Boost uploads files in bigger chunks and increases traffic usage.</string>
+
+    <!-- Storage -->
+    <string name="VGGeneralStorageHeader">Storage</string>
+    <string name="VGGeneralSavePath">Save Path</string>
+    <string name="VGGeneralSavePathDefault">Default</string>
+    <string name="VGGeneralSavePathHint">Folder name</string>
+    <string name="VGGeneralSavePathInfo">Name of the folder inside Downloads where saved files are placed. Letters, digits, spaces, dot, dash and underscore only.</string>
+    <string name="VGGeneralSavePathInfoFolder">Saved files are placed in Downloads/%1$s. Letters, digits, spaces, dot, dash and underscore only.</string>
+
+    <!-- Profile -->
+    <string name="VGGeneralProfileHeader">Profile</string>
+    <string name="VGGeneralHidePhone">Hide Phone Number</string>
+    <string name="VGGeneralShowIdAndDc">Show ID and DC</string>
+    <string name="VGGeneralShowIdAndDcInfo">Shows the user or chat ID and the data center number on the profile page.</string>
+
+    <!-- Archive -->
+    <string name="VGGeneralArchiveHeader">Chat List and Archive</string>
+    <string name="VGGeneralHideArchive">Hide Archive Folder</string>
+    <string name="VGGeneralArchiveOnPull">Open Archive on Pull-down</string>
+    <string name="VGGeneralDisableUnarchiveSwipe">Disable \"Unarchive\" Swipe</string>
+    <string name="VGGeneralDisableUnarchiveSwipeInfo">Swiping left will not remove a chat from the archive.</string>
+
+    <!-- Google -->
+
+    <!-- Settings Management -->
+    <string name="VGGeneralExportEtgSettings">Export settings</string>
+    <string name="VGGeneralImportEtgSettings">Import settings</string>
+    <string name="VGGeneralExportFormatFull">All settings (.json)</string>
+    <string name="VGGeneralExportFormatExtera">VibeGram format (.vibe)</string>
+    <string name="VGGeneralImportEtgConfirm">%1$d settings from this file will replace the current ones.</string>
+    <string name="VGGeneralImportEtgEmpty">No VibeGram settings found in this file.</string>
+    <string name="VGGeneralImportEtgDone">Settings imported: %1$d</string>
+    <string name="VGGeneralResetSettings">Reset Settings</string>
+    <string name="VGGeneralResetSettingsInfo">All settings will be reset to their default values, and the app will restart.</string>
+    <string name="VGGeneralResetSettingsDone">VibeGram preferences have been reset.</string>
+    <string name="VGGeneralDeleteAccount">Delete Account</string>
+    <string name="DeepLFormalityDefault">Tone: as it comes</string>
+    <string name="DeepLFormalityInformal">Tone: informal</string>
+    <string name="DeepLFormalityFormal">Tone: formal</string>
+    <string name="VGGeneralNagramHeader">Extras</string>
+    <string name="VGGeneralNagramSettings">Extended settings</string>
+    <string name="VGGeneralAyuMoments">AyuMoments</string>
+    <string name="VGGeneralAyuMomentsInfo">Saving deleted and edited messages, ghost mode and regex filters. The features keep working while they are on, whether or not you open this screen.</string>
+    <string name="VGGeneralAyuMomentsDisableAll">Turn off all AyuMoments features</string>
+    <string name="VGLastActivityFormatted">last activity %1$s</string>
+    <string name="VGLastActivityDateFormatted">last activity %1$s</string>
+    <string name="VGGeneralNotificationsHeader">Notifications</string>
+    <string name="VGGeneralPushStatus">Push status</string>
+    <string name="VGGeneralPushStatusBlocked">blocked by system</string>
+    <string name="VGGeneralPushStatusNoToken">no token</string>
+    <string name="VGGeneralPushStatusNotRegistered">not registered</string>
+    <string name="VGGeneralPushStatusNothing">nothing received</string>
+    <string name="VGGeneralBatteryOptimization">Battery optimization</string>
+    <string name="VGGeneralBatteryOptimizationOn">Enabled — pushes may be delayed</string>
+    <string name="VGGeneralBatteryOptimizationOff">Disabled</string>
+    <string name="VGGeneralBatteryOptimizationUnavailable">Battery settings are unavailable on this device</string>
+    <string name="VGGeneralNotificationsInfo">Tap the push status to copy diagnostics to the clipboard — attach it when reporting a notification problem. If battery optimization is enabled, Android may delay or drop pushes while the app is in the background.</string>
+    <string name="VGGeneralGoogleHeader">Google</string>
+    <string name="VGGeneralCrashReports">Crash reports</string>
+    <string name="VGGeneralCrashReportsInfo">Sends crash stack traces to Firebase Crashlytics so failures can be fixed without a manual report. Off by default; nothing leaves the device while it is off.</string>
+    <string name="VGGeneralContentCapture">Share screen content with Android</string>
+    <string name="VGGeneralContentCaptureInfo">Needed for Pixel Live Translate and system on-screen suggestions. While off, the system does not see chat text and lists scroll smoother.</string>
+    <string name="VGGeneralMapsHeader">Maps</string>
+    <string name="VGGeneralUseOsmMapInfo">Draws the location picker and live locations with OpenStreetMap tiles instead of Google Maps. Location previews inside messages still come from Telegram servers.</string>
+    <string name="VGGeneralMapProvider">Map provider</string>
+    <string name="VGGeneralMapPreview">Location previews</string>
+    <string name="VGGeneralMapDriftingFix">Fix map drifting</string>
+    <string name="VGCrashTitle">vibegram crashed</string>
+    <string name="VGGeneralNetworkHeader">Network</string>
+    <string name="VGGeneralDnsOverHttps" translatable="false">DNS over HTTPS</string>
+    <string name="VGPrivacyFalseBottom">False Bottom</string>
+    <string name="VGPrivacyFalseBottomShowIn">Show in %1$s</string>
+    <string name="AskBeforeOpeningStory">Ask before opening a story</string>
+    <string name="AskBeforeOpeningStoryInfo">Offers to view it in ghost mode, normally or not at all.</string>
+    <string name="AskBeforeOpeningStoryTitle">Open story?</string>
+    <string name="AskBeforeOpeningStoryGhost">View in ghost mode</string>
+    <string name="AskBeforeOpeningStoryNormal">View</string>
+    <string name="GhostScheduledSend">Send as scheduled</string>
+    <string name="GhostScheduledSendNotice">While your online status is hidden, messages are sent as scheduled ones 12 seconds later, so you don\'t appear online.</string>
+    <string name="CloudConfigIncludeApiKeys">Save AI keys</string>
+    <string name="CloudConfigIncludeApiKeysDesc">API keys of AI and translation services are uploaded to the cloud too.</string>
+    <string name="VGCloudTitle">Cloud</string>
+    <string name="VGCloudHeroTitle">Settings in the cloud</string>
+    <string name="VGCloudHeroText">Keep your vibegram settings in Telegram and restore them on any device signed in to this account.</string>
+    <string name="VGCloudStatus">Status</string>
+    <string name="VGCloudLocal">This device</string>
+    <string name="VGCloudRemote">Cloud</string>
+    <string name="VGCloudChecking">checking…</string>
+    <string name="VGCloudActions">Actions</string>
+    <string name="VGCloudUpload">Upload to cloud</string>
+    <string name="VGCloudUploading">Uploading…</string>
+    <string name="VGCloudUploaded">Settings uploaded to the cloud</string>
+    <string name="VGCloudRestore">Restore from cloud</string>
+    <string name="VGCloudRestoring">Restoring…</string>
+    <string name="VGCloudRestoreAction">Restore</string>
+    <string name="VGCloudRestoreConfirm">Your current settings will be replaced with the cloud copy, then the app restarts.</string>
+    <string name="VGCloudClear">Clear cloud</string>
+    <string name="VGCloudClearing">Clearing…</string>
+    <string name="VGCloudClearAction">Clear</string>
+    <string name="VGCloudClearConfirm">The cloud copy will be deleted. Settings on this device stay as they are.</string>
+    <string name="VGCloudOptions">Options</string>
+    <string name="VGCloudAutoSync">Auto-sync</string>
+    <string name="VGCloudAutoSyncInfo">Upload after every settings change</string>
+    <string name="VGAyuSaveReadDate">Save Read Date</string>
+    <string name="VGAyuGhostHeader">Ghost</string>
+    <string name="VGAyuSavingHeader">Saving</string>
+    <string name="VGAyuDeletedHeader">Deleted messages in chat</string>
+    <string name="VGAyuOtherHeader">Other</string>
+    <string name="VGAyuDangerHeader">Danger zone</string>
+    <string name="VGAyuSaveReadDateInfo">Remembers when your messages were read and listened to. Shown in the message menu when Telegram doesn\'t provide the time.</string>
+    <string name="VGAyuPlayedTodayAt">listened at %s</string>
+    <string name="VGAyuPlayedYesterdayAt">listened yesterday at %s</string>
+    <string name="VGAyuPlayedDateTimeAt">listened %1$s at %2$s</string>
+    <string name="VGAyuForwardLoadingMedia">Loading media</string>
+    <string name="VGAyuForwardLoadingCount">Files: %1$d of %2$d</string>
+    <string name="VGAyuForwardLoadFailed">Couldn\'t load media for forwarding</string>
+    <string name="VGUpdateAvailable">Update available: %1$s</string>
+    <string name="VGUpdateInstall">Update</string>
+    <string name="VGUpdateInstallSize">Update (%1$s)</string>
+    <string name="VGUpdateLater">Later</string>
+    <string name="VGUpdateSkip">Skip this version</string>
+    <string name="VGUpdateDownloading">Downloading update</string>
+    <string name="VGUpdateDownloadFailed">Could not download the update</string>
+    <string name="VGUpdateCheckFailed">Could not check for updates</string>
+    <string name="VGUserLookupTitle">Starting @usinfobot</string>
+    <string name="VGUserLookupStart">Finding a user by ID requires **@usinfobot**. It only works once started, so we\'ll send it /start. A chat with it will appear in your chat list.</string>
+    <string name="VGUserLookupStartButton">Start</string>
+    <string name="VGUserLookupNotFound">User %1$d not found</string>
+    <string name="VGUpdateTitle">Update available</string>
+    <string name="VGUpdateDownloadProgress">%1$s of %2$s</string>
+    <string name="VGAyuSaveInArchived">Save in archived chats</string>
+    <string name="VGAyuSaveInArchivedInfo">Deleted and edited messages from chats in the archive are saved too.</string>
+    <string name="VGAyuDatabaseExport">Export database</string>
+    <string name="VGAyuDatabaseImport">Import database</string>
+    <string name="VGAyuDatabaseImportInfo">Deleted and edited messages from this file will be added to the ones already saved. Exports from vibegram and AyuGram are supported. Media from another app may be unavailable.</string>
+    <string name="VGAyuDatabaseImportDone">Messages added: %1$d</string>
+    <string name="VGAyuDatabaseImportFailed">Couldn\'t import this file</string>
+    <string name="VGAyuRegexReversed">Reversed</string>
+    <string name="VGAyuRegexReversedInfo">Hide messages that don\'t match the expression</string>
+    <string name="VGUpdaterChecking">Checking for updates…</string>
+    <string name="VGUpdaterLatest">You have the latest version</string>
+    <string name="VGUpdaterAvailable">Version %1$s is available</string>
+    <string name="VGUpdaterFailedInfo">Check your connection and try again</string>
+    <string name="VGUpdaterCheckedJustNow">Checked just now</string>
+    <string name="VGUpdaterCheckedAt">Checked %1$s</string>
+    <string name="VGUpdaterCheckAgain">Check again</string>
+    <string name="VGUpdaterChannel">Automatic check</string>
+    <string name="VGUpdaterChannelOff">Off</string>
+    <string name="VGUpdaterChannelStable">Releases</string>
+    <string name="VGUpdaterChannelBeta">Beta</string>
+    <string name="VGUpdaterChannelOffInfo">Updates are checked only when you tap the logo.</string>
+    <string name="VGUpdaterChannelStableInfo">New releases on GitHub are checked every 6 hours.</string>
+    <string name="VGUpdaterChannelBetaInfo">Also offers GitHub pre-releases before they become releases.</string>
+    <string name="VGUpdaterAllReleases">All releases on GitHub</string>
+    <string name="VGLiteFollowSystemSaver">Follow system battery saver</string>
+    <string name="VGLiteFollowSystemSaverInfo">Power saving turns on together with the system battery saver.</string>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Инструменты VibeGram -->
+    <string name="VGToolsTitle">Инструменты Vibe</string>
+    <string name="VGToolsProductivityHeader">Продуктивность</string>
+    <string name="VGToolsSnippets">Быстрые шаблоны</string>
+    <string name="VGToolsSnippetsCount">Сохранено: %1$d</string>
+    <string name="VGToolsSnippetsEmpty">Пока нет шаблонов. Добавьте готовые ответы или заготовки текста, чтобы вставлять их в любой чат в одно нажатие.</string>
+    <string name="VGToolsSnippetsSearchHint">Поиск по шаблонам…</string>
+    <string name="VGToolsSnippetAdd">Новый шаблон</string>
+    <string name="VGToolsSnippetEdit">Изменить шаблон</string>
+    <string name="VGToolsSnippetTitleHint">Короткое название (напр. Адрес, Привет)</string>
+    <string name="VGToolsSnippetBodyHint">Текст сообщения…</string>
+    <string name="VGToolsSnippetInserted">Шаблон вставлен</string>
+    <string name="VGToolsSnippetCopied">Шаблон скопирован</string>
+    <string name="VGToolsSnippetSaved">Шаблон сохранён</string>
+    <string name="VGToolsSnippetDeleted">Шаблон удалён</string>
+    <string name="VGToolsSnippetEmptyError">Заполните и название, и текст шаблона.</string>
+
+    <string name="VGToolsNotes">Приватные заметки к чатам</string>
+    <string name="VGToolsNotesCount">Сохранено: %1$d</string>
+    <string name="VGToolsNotesEmpty">Приватных заметок пока нет. Откройте меню любого чата или профиля и выберите «Приватная заметка».</string>
+    <string name="VGToolsChatNote">Приватная заметка</string>
+    <string name="VGToolsChatNoteEdit">Изменить заметку</string>
+    <string name="VGToolsChatNoteHint">Локальная заметка для этого чата (хранится только на вашем устройстве)…</string>
+    <string name="VGToolsChatNoteSaved">Заметка сохранена</string>
+    <string name="VGToolsChatNoteCleared">Заметка удалена</string>
+    <string name="VGToolsChatNoteUpdated">Обновлено %1$s</string>
+    <string name="VGToolsShowInChatMenu">Показывать в меню чата</string>
+    <string name="VGToolsShowInChatMenuInfo">Добавляет Быстрые шаблоны, Приватную заметку и Статистику чата в меню «⋮» внутри чатов.</string>
+
+    <string name="VGToolsInsights">Статистика чата</string>
+    <string name="VGToolsInsightsDialogId">ID диалога</string>
+    <string name="VGToolsInsightsBotApiId">Bot API ID</string>
+    <string name="VGToolsInsightsType">Тип</string>
+    <string name="VGToolsInsightsUsername">Юзернейм</string>
+    <string name="VGToolsInsightsDc">Дата-центр</string>
+    <string name="VGToolsInsightsFlags">Флаги</string>
+    <string name="VGToolsInsightsLoaded">Загруженная история</string>
+    <string name="VGToolsInsightsMessages">Сообщений: %1$d (исх. %2$d / вх. %3$d)</string>
+    <string name="VGToolsInsightsMediaBreakdown">Медиа и контент</string>
+    <string name="VGToolsInsightsCopySummary">Скопировать отчёт</string>
+    <string name="VGToolsInsightsCopied">Скопировано в буфер</string>
+
+    <string name="VGToolsPerformanceHeader">Производительность и память</string>
+    <string name="VGToolsCacheSize">Размер кэша</string>
+    <string name="VGToolsCacheCalculating">Подсчёт…</string>
+    <string name="VGToolsCacheBreakdown">Кэш и медиа: %1$s • Логи: %2$s</string>
+    <string name="VGToolsClearCacheNow">Оптимизировать и очистить кэш</string>
+    <string name="VGToolsClearCacheConfirm">Очистить временный кэш, кэш стикеров/эмодзи и старые логи? Ваши сохранённые медиафайлы не пострадают.</string>
+    <string name="VGToolsCacheCleaned">Кэш оптимизирован (освобождено %1$s)</string>
+    <string name="VGToolsAutoTrim">Умная автоочистка кэша</string>
+    <string name="VGToolsAutoTrimOff">Выкл</string>
+    <string name="VGToolsAutoTrim512">512 МБ</string>
+    <string name="VGToolsAutoTrim1024">1 ГБ</string>
+    <string name="VGToolsAutoTrim2048">2 ГБ</string>
+    <string name="VGToolsAutoTrimInfo">Автоматически очищает временный кэш и старые логи в фоне после запуска, если объём кэша превышает выбранный порог.</string>
+    <string name="VGToolsOptimizeScroll">Плавная прокрутка</string>
+    <string name="VGToolsOptimizeScrollInfo">Снижает лишние вычисления и аллокации памяти при быстрой прокрутке чатов и списков.</string>
+    <string name="VGToolsMemoryUsage">Потребление ОЗУ</string>
+    <string name="VGToolsMemoryValue">%1$d МБ / %2$d МБ</string>
+    <string name="VGToolsMemoryTrimmed">Кэш изображений в ОЗУ очищен</string>
+</resources>

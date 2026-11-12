@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- VibeGram: Appearance screen -->
+
+    <string name="VGAppearanceTitle">Appearance</string>
+
+    <!-- Avatars -->
+    <string name="VGAppearanceAvatarCorners">Avatar Corners</string>
+    <string name="VGAppearanceAvatarCornersLeft">Square</string>
+    <string name="VGAppearanceAvatarCornersRight">Circle</string>
+    <string name="VGAppearanceSingleCornerRadius">Single Corner Radius</string>
+    <string name="VGAppearanceSingleCornerRadiusInfo">Forums will have the same avatar shape as chats.</string>
+
+    <!-- Chat List -->
+    <string name="VGAppearanceChatList">Chat List</string>
+    <string name="VGAppearanceForceSnow">Force Snowflakes</string>
+    <string name="VGAppearanceHideActionBarStatus">Hide Status</string>
+    <string name="VGAppearanceCenterTitle">Center Title</string>
+    <string name="VGAppearanceStories">Stories</string>
+    <string name="VGAppearanceStoriesShow">Show</string>
+    <string name="VGAppearanceStoriesHideHeader">Hide from header</string>
+    <string name="VGAppearanceStoriesDisable">Disable</string>
+    <string name="VGAppearanceHideFloatingButton">Hide Floating Button</string>
+    <string name="VGAppearanceHideSearchBar">Hide Search Bar</string>
+    <string name="VGAppearanceSenderMiniAvatars">Sender Mini Avatars</string>
+    <string name="VGAppearanceForceSnowInfo">Falling snowflakes will appear in the action bar, side menu, and chat backgrounds.</string>
+    <string name="VGAppearanceTitleText">Title Text</string>
+    <string name="VGAppearanceTitleTextApp">@string/AppName</string>
+    <string name="VGAppearanceTitleTextUsername">Username</string>
+    <string name="VGAppearanceTitleTextName">First Name</string>
+    <string name="VGAppearanceTitleTextCustom">Custom</string>
+    <string name="VGAppearanceChatListInfo">When \"Icons only\" is enabled for folders, the main title will display the folder name.</string>
+
+    <!-- Folders (Tabs) -->
+    <string name="VGAppearanceFolders">Folders</string>
+    <string name="VGAppearanceInterface">Interface</string>
+    <string name="VGAppearanceTabTitleStyle">Folder Title</string>
+    <string name="VGAppearanceTabTitleStyleTextOnly">Names only</string>
+    <string name="VGAppearanceTabTitleStyleIconsOnly">Icons only</string>
+    <string name="VGAppearanceTabTitleStyleTextWithIcons">Names with Icons</string>
+    <string name="VGAppearanceTabCounter">Notification Counter</string>
+    <string name="VGAppearanceHideAllChats">Hide \"%1$s\" Tab</string>
+    <string name="VGAppearanceFoldersInfo">Icons are synchronized with your account.</string>
+
+    <!-- App Navigation -->
+    <string name="VGAppearanceNavigation">App Navigation</string>
+
+    <!-- General Appearance -->
+    <string name="VGAppearanceGeneral">Appearance</string>
+    <string name="VGAppearanceUseSystemFonts">Use System Fonts</string>
+    <string name="VGAppearanceUseSystemEmoji">Use System Emoji</string>
+    <string name="VGAppearanceSwitchStyle">Switches</string>
+    <string name="VGAppearanceSliderStyle">Sliders</string>
+
+    <!-- Blur &amp; Effects -->
+    <string name="VGAppearanceBlur">Blur Options</string>
+    <string name="VGAppearanceForceBlur">Force Blur</string>
+    <string name="VGAppearanceDisableAvatarBlur">Disable Avatar Blur</string>
+    <string name="VGAppearanceBlurInfo">Blur effects will be applied to all themes, overriding their default settings.</string>
+
+    <string name="VGAppearanceRestartNow">Restart</string>
+    <string name="VGAppearanceNeedRestart">Restart the app to apply this setting.</string>
+
+    <!-- General / Sections / Blur extras (UI only) -->
+    <string name="VGAppearanceMaterialDesign3" translatable="false">Material Design 3</string>
+    <string name="VGAppearanceGooeyAvatar">\"Gooey\" Avatar Animation</string>
+    <string name="VGAppearanceCustomThemes">Custom Themes in Chats</string>
+    <string name="VGAppearanceCustomThemesInfo">Each chat will display the theme that was specifically chosen for it.</string>
+    <string name="VGAppearanceSections">Sections</string>
+    <string name="VGAppearanceSectionRadius">Section Radius</string>
+    <string name="VGAppearanceSectionRadiusOff">Off</string>
+    <string name="VGAppearanceSectionRadiusMax">Max</string>
+    <string name="VGAppearanceSeparateHeaders">Separate Headers</string>
+    <string name="VGAppearanceDividerStyle">Divider Style</string>
+    <string name="VGAppearanceDividerHidden">Hidden</string>
+    <string name="VGAppearanceDividerLine">Line</string>
+    <string name="VGAppearanceDividerSegments">Segments</string>
+    <string name="VGAppearanceGlassOutline">Glass Outline</string>
+    <string name="VGAppearanceGlassOutlineGlare">Glare</string>
+    <string name="VGAppearanceGlassOutlineSolid">Solid</string>
+    <string name="VGAppearanceGlassOutlineHidden">Hidden</string>
+    <string name="VGAppearanceGlassMessageMenu">Glass Message Menu</string>
+    <string name="VGAppearanceGlassMessageMenuInfo">The message menu and the reactions bar become frosted glass.</string>
+    <string name="VGAppearanceGlassMessageMenuBlurOff">Glass menus need blur, which is currently off.</string>
+    <string name="VGAppearancePowerSaverActive">Power saving is on below %1$d%% battery, so blur and animations are paused. The setting is saved and turns back on once you charge.</string>
+    <string name="VGAppearancePowerSaverSettings">Power saving</string>
+    <string name="VGAppearanceIconPacks">Icon Packs</string>
+    <string name="VGAppearanceIconPacksInfo">Customize icons across the app</string>
+    <string name="VGAppearancePillStack">Pill Stack</string>
+    <string name="VGAppearancePillStackInfo">Display interactive pills in the search field</string>
+    <string name="VGAppearanceNavigationSub">Top-right menu and drawer settings</string>
+    <string name="VGAppNavigation">App Navigation</string>
+    <string name="VGGeneral">General</string>
+    <string name="VGTabletMode">Tablet Mode</string>
+    <string name="VGTabletModeAuto">Auto</string>
+    <string name="VGTabletModeOn">On</string>
+    <string name="VGTabletModeOff">Off</string>
+    <string name="VGBottomNavigationBarMode">Bottom Navigation Bar</string>
+    <string name="VGBottomNavigationModeShow">Show</string>
+    <string name="VGBottomNavigationModeHide">Hide</string>
+    <string name="VGBackAnimation">Back Animation</string>
+    <string name="VGBackAnimationClassic">Classic</string>
+    <string name="VGBackAnimationSpring">Spring</string>
+    <string name="VGBackAnimationPredictive">Predictive Back</string>
+    <string name="VGBackAnimationSlide">Slide</string>
+    <string name="VGBackAnimationInfo">Enables smoother animations when switching screens and opening the side menu.</string>
+    <string name="VGPredictiveBackIntensity">Gesture Intensity</string>
+    <string name="VGPredictiveBackOff">Off</string>
+    <string name="VGPredictiveBackMax">Max</string>
+    <string name="VGPredictiveBackInfo">Adjusts how far the screen moves when swiping back.</string>
+    <string name="VGNavigationDrawer">Navigation Drawer</string>
+    <string name="VGNavigationDrawerImmersive">Immersive Animation</string>
+    <string name="VGNavigationDrawerInfo">Replaces the top-right menu with a classic swipe-to-open drawer and a hamburger button.</string>
+    <string name="VGMainMenuItems">Menu Items</string>
+    <string name="VGMainMenuItemsInfo">Tap to show or hide items, hold to reorder. Layout is shared between the menu and the drawer.</string>
+    <string name="VGMainMenuHiddenItems">Hidden Menu Items</string>
+    <string name="VGMainMenuAddDivider">Add Divider</string>
+    <string name="VGMainMenuDivider">Divider</string>
+    <string name="VGMainMenuRemoveSettingsInfo">Settings cannot be hidden while the bottom navigation bar is disabled.</string>
+    <string name="VGAppearanceNewLoadingStyle">Loading Indicators</string>
+    <string name="VGAppearanceNewChatHeaderStyle">Chat Header</string>
+    <string name="VGAppearanceNewNavigationBarStyle">Navigation Bar</string>
+    <string name="VGAppearanceM3ListItems">List Items</string>
+    <string name="VGAppearanceIosDesign" translatable="false">iOS Design</string>
+    <string name="VGAppearanceIosNavigationBarStyle">Navigation Bar</string>
+    <string name="VGAppearanceIosChatHeader">iOS Chat Header</string>
+    <string name="VGAppearanceHideAi">Hide AI</string>
+    <string name="VGAppearanceHideAiEditor">AI Editor</string>
+    <string name="VGAppearanceHideAiSummary">Message Summary</string>
+    <string name="VGAppearanceHideAiIv">Instant View Summary</string>
+    <string name="MonetStyleHeader">Monet palette</string>
+    <string name="MonetStyleTelemone">Telemone</string>
+    <string name="MonetStyleClassic">Classic</string>
+    <string name="VGAppearanceTabCounterAll">All chats</string>
+    <string name="VGAppearanceTabCounterUnmuted">Except muted</string>
+    <string name="VGAppearanceTabCounterOff">Off</string>
+    <string name="VGAppearanceEmojiSetsInfo">Change emoji across the app</string>
+    <string name="VGAppearanceHideSettingsSections">Hide Settings Sections</string>
+    <string name="VGBottomNavigationBar">Bottom Bar</string>
+    <string name="VGProfileMusicDesign">Profile Music</string>
+    <string name="VGProfileMusicUseOfficial">Telegram Style</string>
+    <string name="VGProfileMusicUseOfficialInfo">Show the track under the avatar, like in the official app?</string>
+    <string name="VGProfileMusicUseCard">Card</string>
+    <string name="VGProfileMusicUseCardInfo">Show the track as a card below the profile header?</string>
+    <string name="VGAppearanceHiding">Hide Elements</string>
+    <string name="VGAppearanceHidingInfo">Stories, buttons, tabs and AI features</string>
+    <string name="VGAppearanceHidingInChats">In Chats</string>
+    <string name="VGAppearanceHidingAiPremium">AI and Premium</string>
+    <string name="VGKillApp">Close App</string>
+    <string name="VGStartupFolder">Startup Folder</string>
+    <string name="VGStartupFolderFirst">First Folder</string>
+    <string name="VGStartupFolderLast">Last Opened</string>
+    <string name="VGStartupFolderOpen">Open at Startup</string>
+    <string name="VGStartupFolderDontOpen">Don\'t Open at Startup</string>
+    <string name="VGStartupFolderSet">**%1$s** will open at startup</string>
+    <string name="VGStartupFolderReset">The first folder will open at startup</string>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Vibe Tools -->
+    <string name="VGToolsTitle">Vibe Tools</string>
+    <string name="VGToolsProductivityHeader">Productivity</string>
+    <string name="VGToolsSnippets">Quick Snippets</string>
+    <string name="VGToolsSnippetsCount">%1$d saved</string>
+    <string name="VGToolsSnippetsEmpty">No quick snippets yet. Add reusable replies or templates to insert into any chat in one tap.</string>
+    <string name="VGToolsSnippetsSearchHint">Search snippets…</string>
+    <string name="VGToolsSnippetAdd">New Snippet</string>
+    <string name="VGToolsSnippetEdit">Edit Snippet</string>
+    <string name="VGToolsSnippetTitleHint">Short title (e.g. Address, Greeting)</string>
+    <string name="VGToolsSnippetBodyHint">Message text…</string>
+    <string name="VGToolsSnippetInserted">Snippet inserted</string>
+    <string name="VGToolsSnippetCopied">Snippet copied</string>
+    <string name="VGToolsSnippetSaved">Snippet saved</string>
+    <string name="VGToolsSnippetDeleted">Snippet deleted</string>
+    <string name="VGToolsSnippetEmptyError">Enter both a title and message text.</string>
+
+    <string name="VGToolsNotes">Private Chat Notes</string>
+    <string name="VGToolsNotesCount">%1$d saved</string>
+    <string name="VGToolsNotesEmpty">No private chat notes saved yet. Open any chat or profile menu and tap Private Note to add one.</string>
+    <string name="VGToolsChatNote">Private Note</string>
+    <string name="VGToolsChatNoteEdit">Edit Private Note</string>
+    <string name="VGToolsChatNoteHint">Write a local private note for this chat (only stored on this device)…</string>
+    <string name="VGToolsChatNoteSaved">Note saved</string>
+    <string name="VGToolsChatNoteCleared">Note removed</string>
+    <string name="VGToolsChatNoteUpdated">Updated %1$s</string>
+    <string name="VGToolsShowInChatMenu">Show in Chat Menu</string>
+    <string name="VGToolsShowInChatMenuInfo">Adds Quick Snippets, Private Note, and Chat Insights to the three-dot menu inside chats.</string>
+
+    <string name="VGToolsInsights">Chat Insights</string>
+    <string name="VGToolsInsightsDialogId">Dialog ID</string>
+    <string name="VGToolsInsightsBotApiId">Bot API ID</string>
+    <string name="VGToolsInsightsType">Type</string>
+    <string name="VGToolsInsightsUsername">Username</string>
+    <string name="VGToolsInsightsDc">Datacenter</string>
+    <string name="VGToolsInsightsFlags">Flags</string>
+    <string name="VGToolsInsightsLoaded">Loaded History</string>
+    <string name="VGToolsInsightsMessages">%1$d messages (%2$d out / %3$d in)</string>
+    <string name="VGToolsInsightsMediaBreakdown">Media &amp; Content</string>
+    <string name="VGToolsInsightsCopySummary">Copy Summary</string>
+    <string name="VGToolsInsightsCopied">Copied to clipboard</string>
+
+    <string name="VGToolsPerformanceHeader">Performance &amp; Optimization</string>
+    <string name="VGToolsCacheSize">Cache Footprint</string>
+    <string name="VGToolsCacheCalculating">Scanning…</string>
+    <string name="VGToolsCacheBreakdown">Cache &amp; media: %1$s • Logs: %2$s</string>
+    <string name="VGToolsClearCacheNow">Optimize &amp; Clean Cache</string>
+    <string name="VGToolsClearCacheConfirm">Clear temporary cache, cached stickers/emoji, and old log files? Downloaded gallery media will stay safe.</string>
+    <string name="VGToolsCacheCleaned">Cache optimized (freed %1$s)</string>
+    <string name="VGToolsAutoTrim">Smart Auto-Trim</string>
+    <string name="VGToolsAutoTrimOff">Off</string>
+    <string name="VGToolsAutoTrim512">512 MB</string>
+    <string name="VGToolsAutoTrim1024">1 GB</string>
+    <string name="VGToolsAutoTrim2048">2 GB</string>
+    <string name="VGToolsAutoTrimInfo">Automatically trims temporary cache and old logs in the background after startup when cache exceeds the selected limit.</string>
+    <string name="VGToolsOptimizeScroll">Smooth Scroll Optimization</string>
+    <string name="VGToolsOptimizeScrollInfo">Reduces unnecessary frame work and memory allocations during fast scrolling.</string>
+    <string name="VGToolsMemoryUsage">Memory Usage</string>
+    <string name="VGToolsMemoryValue">%1$d MB / %2$d MB</string>
+    <string name="VGToolsMemoryTrimmed">Image memory cache trimmed</string>
+</resources>

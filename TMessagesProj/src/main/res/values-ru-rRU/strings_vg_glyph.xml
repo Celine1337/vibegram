@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="VGGlyphTitle">Nothing Glyph</string>
+    <string name="VGGlyphEnable">Glyph Interface</string>
+    <string name="VGGlyphNewMessage">Вспышка при новых сообщениях</string>
+    <string name="VGGlyphCalls">Свечение при входящем звонке</string>
+    <string name="VGGlyphRecording">Свечение при записи голосовых</string>
+    <string name="VGGlyphScreenOff">Сообщения только при выключенном экране</string>
+    <string name="VGGlyphPreview">Предпросмотр</string>
+    <string name="VGGlyphUnsupported">Glyph Interface доступен только на Nothing Phone</string>
+    <string name="VGGlyphInfo">Подсветка задней панели Nothing Phone: вспышка на входящие сообщения, логотип vibegram на Glyph Matrix Phone (3) и «дыхание» во время записи голосовых или входящего звонка. Заглушённые чаты вспышку не вызывают.</string>
+</resources>
