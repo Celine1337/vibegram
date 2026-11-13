@@ -196,7 +196,7 @@ public class ChatInsightsSheet extends BottomSheet {
         }
         for (int i = 0, size = messages.size(); i < size; i++) {
             MessageObject msg = messages.get(i);
-            if (msg == null || msg.type == MessageObject.TYPE_DATE || msg.type == MessageObject.TYPE_SERVICE) {
+            if (msg == null || msg.type == MessageObject.TYPE_DATE || msg.messageOwner instanceof TLRPC.TL_messageService) {
                 continue;
             }
             stats.total++;
